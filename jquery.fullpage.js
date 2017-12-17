@@ -1,5 +1,5 @@
 /*
- *	created by zhangkai on 2016/10/10 
+ *	created by zhangkai on 2016/10/10
  */
 ;(function(global,$){
 	'use strict';
@@ -57,7 +57,7 @@
 					that.gotoTarget(targetIndex);
 				},100));
 
-				this.$el.on('touchstart',function(e){     
+				this.$el.on('touchstart',function(e){
 					x0 = e.touches[0].clientX;
 					y0 = e.touches[0].clientY;
 				});
@@ -89,7 +89,7 @@
 		        children.css({
 					'transform':translateY,
 					'-webkit-transform':translateY
-				});	
+				});
 
 				this.currIndex = targetIndex;
 			}
