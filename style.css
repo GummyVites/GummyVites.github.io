@@ -1,5 +1,7 @@
 html, body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -159,6 +161,8 @@ li{
 
 #fullpage {
   height: 100vh;
+  overflow: hidden;
+
 }
 
 #fullpage section {
@@ -409,4 +413,16 @@ text-align: center;
 #bottom ul li:nth-child(6) a:before {
   background: #3b5999;
   transform: translateY(-10px);
+}
+
+#page2{
+  padding-top: 3%;
+}
+
+#page3{
+  padding-top: 5%;
+}
+
+#page4{
+  padding-top: 5%;
 }

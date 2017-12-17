@@ -7,21 +7,28 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script src="jquery.fullpage.js" charset="utf-8"></script>
 </head>
 <link rel="stylesheet" href="style.css">
 
 <body>
   <div id="fullpage">
-    <section>
-  <div id="top">
-    <h1>Kevin Lee</h1>
-  </div>
-  <h2>HI I'M KEVIN!</h2>
-  <img id="picture1" src="1.jpg"><img id = picture1 src="2.jpg"><img id = picture1 src="3.jpg">
-      </section>
-
       <section>
-        <h3>Experience: Sprout Labs - Front End Developer</h3>  <h3 id="date">October 2017 – Present</h3>
+        <div id="page1">
+        <div id="top">
+          <h1>Kevin Lee</h1>
+        </div>
+        <h2>HI I'M KEVIN!</h2>
+        <img id="picture1" src="1.jpg"><img id = picture1 src="2.jpg"><img id = picture1 src="3.jpg">
+        </div>
+      </section>
+      <section>
+        <div id="page2">
+        <h3>Experience: Sprout Labs - Front End Developer</h3>  <h3>October 2017 – Present</h3>
         <p id="sproutsparagraph">
           RESPONSIBILITIES & ACCOMPLISHMENTS
           <ul id="list">
@@ -66,9 +73,10 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      </div>
       </section>
-
       <section>
+        <div id="page3">
         <h3>Education</h3>
         <p id="undergrad">
           <div id="lul">Student</div>
@@ -78,9 +86,10 @@
           <div id="date">September 2015 – June 2019</div>
         </p>
         <img id="student" src="Oakes_College.jpg">
+        </div>
       </section>
-
       <section>
+        <div id="page4">
         <h3>Personal Project</h3>
         <img id="crypto" src="Crypto.PNG">
         <p id="cryptoDescription">
@@ -94,7 +103,6 @@
               <li id="list4">Uses VueJs</li>
               <li id="list4">Clean Card Design</li>
             </ul>
-
             <h6>COMPONENTS TODO-LIST</h6>
             <ul id="cryptolist">
               <li id="list4">Create Personal Portfolios to keep Track of users Cryptocurrencies</li>
@@ -103,24 +111,19 @@
               <li id="list4">UI & UX design</li>
             </ul>
         </p>
+        </div>
       </section>
-
       <section>
         <h3>Skill Sets</h3>
-
         <h5>Proficient</h5>
           <img id="picture3" src="java.png">
           <img id="picture4" src="javascript.png">
           <img id="picture2" src="vuejs.jpg">
           <img id="picture2" src="htmlcss.jpg">
           <img id="picture2" src="Android-Studio1.jpg">
-
           <h5>Learning</h5>
           <img id="picture2" src="nodejs-logo.png">
       </section>
-
-
-
   </div>
 
   <div id="bottom">
@@ -136,7 +139,7 @@
 </body>
 
 
-<script src="dragscroll.js"></script>
+<script src="script.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
